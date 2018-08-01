@@ -7,6 +7,7 @@ class Program
         ConsoleColor original = Console.ForegroundColor;
         Console.WriteLine();
         Console.WriteLine("######################");
+        Console.WriteLine("######################");
         Console.ForegroundColor = ConsoleColor.Red;
         // fix #1 觀察 可否執行此程式?
         for (int i = 0; i < 4; i++)
